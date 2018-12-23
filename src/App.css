@@ -1,3 +1,13 @@
 .App {
   text-align: center;
 }
+.keypad div {
+  margin:0px;
+}
+
+.keypad button {
+  background-color: aqua;
+  /* flex: 1 0 auto;  */
+  padding:10px;
+
+}
