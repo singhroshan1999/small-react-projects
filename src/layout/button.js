@@ -6,7 +6,7 @@ import Div from './Div';
 const button = (props) => {
     return (
         <Div>
-            <button onClick = {props.clicked} className={props.classes}>{props.symbol}</button>
+            <button onClick = {()=>{props.clicked(props.symbol)}} className={props.classes}>{props.symbol}</button>
         </Div>
     )
 
