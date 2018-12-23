@@ -6,7 +6,7 @@ import Div from './Div';
 const layout = (props) => {
     return (
         <Div>
-            LAYOUT
+            
             {props.children}
         </Div>
     )
