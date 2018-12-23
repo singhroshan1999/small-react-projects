@@ -5,9 +5,9 @@ import Div from './Div';
 
 const button = (props) => {
     return (
-        <div>
-            <button>PLACEHOLDER</button>
-        </div>
+        <Div>
+            <button onClick = {props.clicked} className={props.classes}>{props.symbol}</button>
+        </Div>
     )
 
 }

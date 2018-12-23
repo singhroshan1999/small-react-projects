@@ -5,9 +5,9 @@ import Div from './Div';
 
 const display = (props) => {
     return (
-        <Div>
-            display
-        </Div>
+        <div>
+            {props.display}
+        </div>
     )
 
 }

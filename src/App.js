@@ -8,12 +8,24 @@ import KeyPad from './layout/keypad';
 
 class App extends Component {
 
+  state = {
+    display : "",
+    count:0
+  }
+
+updateDisplay = (str) => {
+  this.setState({display:str,count:this.state.count+1});
+}
+keypadHandler = () => {
+this.updateDisplay("clicked");
+}
+
   render() {
     return (
       <Div>
         <Layout>
-          <Display />
-          <KeyPad />
+          <Display display = {this.state.display} />
+          <KeyPad clicked = {this.keypadHandler} />
         </Layout>
       </Div>
 
