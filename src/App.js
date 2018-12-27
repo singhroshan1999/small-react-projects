@@ -4,7 +4,7 @@ class App extends Component {
 
   render() {
     return (
-<div> Hello! This is tutorial app</div>
+<div> Hello! This is MasterMind Game</div>
     );
   }
 }
