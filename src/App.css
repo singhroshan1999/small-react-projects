@@ -1,3 +1,10 @@
 .App {
   text-align: center;
 }
+
+.border {
+  padding:5px;
+  border: 1px solid black;
+  width:40px;
+  display:inline-block;
+}
