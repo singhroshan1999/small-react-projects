@@ -1,5 +1,7 @@
+
 .App {
   text-align: center;
+
 }
 
 .border {
@@ -45,4 +47,51 @@
 
 .markerDiv {
   width:50px;
+=======
+  height:100%
+}
+.keypad div {
+  margin:0px;
+}
+
+.keypad button {
+  /* background-color: aqua; */
+  /* flex: 1 0 auto;  */
+  padding:20px 0 20px 0;
+  border-width: 1px 0 0 1px;
+  border-color: darkgray;
+  font-size:42px;
+  font-family: 'Dosis', sans-serif;
+
+
+}
+
+.keypad button:focus{
+  outline: 0
+}
+
+.keymap_number {
+background-color: #333;
+color: whitesmoke
+}
+
+.keypad_operator {
+background-color: dimgray;
+color: white
+}
+
+.keypad_equal {
+background-color: chocolate;
+}
+
+.display{
+border:2px solid #000;
+text-align: right;
+padding: 20px 10px 20px 10px;
+font-size:72px;
+font-weight: bold;
+background-color: gainsboro;
+font-family: 'Work Sans', sans-serif;
+
+
 }
