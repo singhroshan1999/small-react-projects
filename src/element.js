@@ -2,16 +2,20 @@ import React from 'react';
 
 const Element = {
     SelectorCircle: (props) => {
-        return <div className="border">&nbsp;</div>
+        const color = {backgroundColor:props.colors};
+        return <div className="selectorCircle" style={color}>&nbsp;</div>
     },
     SelectedCircle: (props) => {
-        return <div className="border">&nbsp;</div>
+        const color = {backgroundColor:props.colors};
+        return <div className="selectedCircle" style={color}>&nbsp;</div>
     },
     MarkerCircle:(props) => {
-        return <div className="border">&nbsp;</div>
+        const color = {backgroundColor:props.colors};
+        return <div className="markerCircle" style={color}>&nbsp;</div>
+
     },
     SerialNo: (props) => {
-        return <div className="border">&nbsp;</div>
+        return <div className="serialNo">05</div>
     }
 }
 
