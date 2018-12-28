@@ -26,17 +26,18 @@ const selected = (props) => {//use loop here
     </React.Fragment>;
 
     const marker = 
-    <React.Fragment>
+    <div className="markerDiv">
     <Element.MarkerCircle colors = {markerColor["black"]} />
     <Element.MarkerCircle colors = {markerColor["white"]} />
     <Element.MarkerCircle colors = {markerColor["grey"]} />
     <Element.MarkerCircle colors = {markerColor["grey"]} />
-    </React.Fragment>;
+    </div>;
 
-    return <div>
+    return <div className="row">
         <Element.SerialNo />
-        <div>{circles}</div>
-        <div>{marker}</div>
+        <div className="col-4 d-flex flex-row-reverse">{circles}</div>
+        <div className="col">{marker}</div>
+        <div className="col-4"></div>
     </div>
 }
 

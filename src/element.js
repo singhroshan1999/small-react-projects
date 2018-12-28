@@ -11,11 +11,11 @@ const Element = {
     },
     MarkerCircle:(props) => {
         const color = {backgroundColor:props.colors};
-        return <div className="markerCircle" style={color}>&nbsp;</div>
+        return <span className="markerCircle" style={color}>&nbsp;</span>
 
     },
     SerialNo: (props) => {
-        return <div className="serialNo">05</div>
+        return <div className="serialNo col-1 d-flex flex-row-reverse">05</div>
     }
 }
 
